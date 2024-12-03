@@ -1,0 +1,34 @@
+# Ignorar arquivos e diretórios ocultos
+.*
+!.env
+
+# Ignorar diretório node_modules, caso exista
+node_modules
+
+# Ignorar diretório de dependências instaladas via Python, caso exista
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de configuração de editor de texto/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignorar arquivos temporários do sistema operacional
+*.swp
+*.bak
+*.tmp
+
+# Ignorar diretórios de build
+dist/
+build/
+target/
+
+# Ignorar diretórios Docker locais
+.docker/
+.dockerignore
